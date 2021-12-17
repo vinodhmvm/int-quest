@@ -1,0 +1,137 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0ed9277fb7eb570c9",
+                    "InstanceId": "i-0a01581ae86bd18ca",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "bastion",
+                    "LaunchTime": "2021-12-17T14:05:20+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-27-221.ec2.internal",
+                    "PrivateIpAddress": "172.31.27.221",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-3-80-69-48.compute-1.amazonaws.com",
+                    "PublicIpAddress": "3.80.69.48",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-0ce238c54013a20a2",
+                    "VpcId": "vpc-0c8fd4d8a56feec9a",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2021-12-17T14:05:22+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0dcb08ada5815dd03"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-3-80-69-48.compute-1.amazonaws.com",
+                                "PublicIp": "3.80.69.48"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2021-12-17T14:05:20+00:00",
+                                "AttachmentId": "eni-attach-03bd6b604ad73ff55",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-1",
+                                    "GroupId": "sg-081831126d2a02212"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:3a:3b:0d:3b:61",
+                            "NetworkInterfaceId": "eni-00b53db691d73a7ef",
+                            "OwnerId": "896589528282",
+                            "PrivateDnsName": "ip-172-31-27-221.ec2.internal",
+                            "PrivateIpAddress": "172.31.27.221",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-3-80-69-48.compute-1.amazonaws.com",
+                                        "PublicIp": "3.80.69.48"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-27-221.ec2.internal",
+                                    "PrivateIpAddress": "172.31.27.221"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0ce238c54013a20a2",
+                            "VpcId": "vpc-0c8fd4d8a56feec9a",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-1",
+                            "GroupId": "sg-081831126d2a02212"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "bastion"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    }
+                }
+            ],
+            "OwnerId": "896589528282",
+            "ReservationId": "r-0b8792806525d8021"
+        }
+    ]
+}
