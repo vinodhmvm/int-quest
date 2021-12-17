@@ -21,7 +21,7 @@ aws ec2 describe-instances --instance-ids <anyrunningec2instanceid> ./instanceme
 
 ## Usage
 
-The below snips were captured while executing the above code
+The below snips were captured while executing/testing the above code
 
 ![1](https://user-images.githubusercontent.com/39188223/146565616-e655e13c-69f6-4d85-b6cb-99c0c12a2060.png)
 
