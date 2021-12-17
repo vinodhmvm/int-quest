@@ -4,7 +4,7 @@
 
 A 3-tier environment is a common setup. Use a tool of your choosing/familiarity create these resources. Please remember we will not be judged on the outcome but more focusing on the approach, style and reproducibility.
 
-###[Solution]
+###[Solution](https://github.com/vinodhmvm/intchallenge/tree/main/aws-metadata-query)
 
  
 ## Challenge #2
@@ -13,9 +13,9 @@ We need to write code that will query the meta data of an instance within AWS an
 Bonus Points
 The code allows for a particular data key to be retrieved individually
 Hints
-·         Aws Documentation (https://docs.aws.amazon.com/)
-·         Azure Documentation (https://docs.microsoft.com/en-us/azure/?product=featured)
-·         Google Documentation (https://cloud.google.com/docs)
+- Aws Documentation (https://docs.aws.amazon.com/)
+- Azure Documentation (https://docs.microsoft.com/en-us/azure/?product=featured)
+- Google Documentation (https://cloud.google.com/docs)
 
 ###[Solution]
  
