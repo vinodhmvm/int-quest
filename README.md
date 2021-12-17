@@ -4,7 +4,7 @@
 
 A 3-tier environment is a common setup. Use a tool of your choosing/familiarity create these resources. Please remember we will not be judged on the outcome but more focusing on the approach, style and reproducibility.
 
-###[Solution](https://github.com/vinodhmvm/intchallenge/tree/main/aws-metadata-query)
+[Solution](https://github.com/vinodhmvm/intchallenge/tree/main/three-tier-architecture)
 
  
 ## Challenge #2
@@ -17,7 +17,7 @@ Hints
 - Azure Documentation (https://docs.microsoft.com/en-us/azure/?product=featured)
 - Google Documentation (https://cloud.google.com/docs)
 
-###[Solution]
+[Solution](https://github.com/vinodhmvm/intchallenge/tree/main/aws-metadata-query)
  
 ## Challenge #3
 
@@ -30,7 +30,7 @@ object = {“x”:{“y”:{“z”:”a”}}}
 key = x/y/z
 value = a
 ```
-###[Solution]
+[Solution](https://github.com/vinodhmvm/intchallenge/tree/main/nested-dict-objects)
 
 ## Authors
 
