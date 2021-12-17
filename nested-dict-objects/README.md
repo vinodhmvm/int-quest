@@ -9,7 +9,7 @@ The code in this repo will query the nested object by passing the object,key as 
 
 ## Usage
 
-The below snips were captured while executing the above code
+The below snips were captured while executing/testing the code in the repo
 
 ![3](https://user-images.githubusercontent.com/39188223/146582994-5d25eb78-9a38-4481-baf3-868ce434ce59.png)
 
