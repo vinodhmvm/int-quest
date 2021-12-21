@@ -21,6 +21,10 @@ variable "ami_id" {
   default = "ami-0ed9277fb7eb570c9"
 }
 
+variable "ec2_user_data" {
+  default = "./tf-modules/ec2-stack/user_data.sh"
+}
+
 #AWS VPC Related Variables
 variable "aws_cidr_block" {
   default = "10.0.0.0/16"

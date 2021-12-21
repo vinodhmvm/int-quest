@@ -33,9 +33,7 @@ resource "aws_security_group" "bastion_ssh_from_nat" {
      to_port         = 22
      protocol        = "tcp"
      security_groups = [
-                        aws_security_group.bastion_ssh_sg.id,
-                        aws_security_group.web_from_nat_prv_sg.id
-
+                        aws_security_group.bastion_ssh_sg.id
      ]
     }  
 }

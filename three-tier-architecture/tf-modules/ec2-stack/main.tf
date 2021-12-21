@@ -32,7 +32,7 @@ resource "aws_launch_configuration" "asg_lc" {
                                  ]
 
     associate_public_ip_address = true
-    user_data                  = file("./user_data.sh")  
+    user_data                  = file("${var.user_data_file}")  
 }
 # AWS Autoscaling group for scaling up or down the instance
 resource "aws_autoscaling_group" "ec2_asg" {
