@@ -17,8 +17,7 @@ provider "aws" {
 
 # Module for creating the VPC
 module "vpccreate" {
-  #source              = "git@github.com:vinodhmvm/intchallenge.git//three-tier-architecture/tf-modules/vpc-stack"
-  source              = "./tf-modules/vpc-stack"
+  source              = "git@github.com:vinodhmvm/intchallenge.git//three-tier-architecture/tf-modules/vpc-stack"
   vpc_cdir_block      = var.aws_cidr_block
   public_subnet_1     = var.aws_public_subnet_1
   public_subnet_2     = var.aws_public_subnet_2
@@ -31,8 +30,7 @@ module "vpccreate" {
 
 # Module for creating the Web Instance
 module "web-stack" {
-  #source          = "git@github.com:vinodhmvm/intchallenge.git//three-tier-architecture/tf-modules/ec2-stack"
-  source          = "./tf-modules/ec2-stack"
+  source          = "git@github.com:vinodhmvm/intchallenge.git//three-tier-architecture/tf-modules/ec2-stack"
   stackname       = "web"
   amis            = var.ami_id
   instance_type   = var.aws_instance_type
@@ -51,8 +49,7 @@ module "web-stack" {
 
 # Module for creating the App Instance
 module "app-stack" {
-  #source          = "git@github.com:vinodhmvm/intchallenge.git//three-tier-architecture/tf-modules/ec2-stack"
-  source          = "./tf-modules/ec2-stack"
+  source          = "git@github.com:vinodhmvm/intchallenge.git//three-tier-architecture/tf-modules/ec2-stack"
   stackname       = "app"
   amis            = var.ami_id
   instance_type   = var.aws_instance_type
@@ -71,8 +68,7 @@ module "app-stack" {
 
 # Module for creating the DB Instance
 module "db-stack" {
-  #source                    = "git@github.com:vinodhmvm/intchallenge.git//three-tier-architecture/tf-modules//rds-stack"
-  source          = "./tf-modules/rds-stack"
+  source                    = "git@github.com:vinodhmvm/intchallenge.git//three-tier-architecture/tf-modules//rds-stack"
   db_allocated_storage      = var.mysql_db_allocated_storage
   db_storage_type           = var.mysql_db_storage_type
   db_engine                 = var.mysql_db_engine
